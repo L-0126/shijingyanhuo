@@ -1,0 +1,28 @@
+{
+    "baseline": "v7_0",
+    "files": {
+        "js/app.js": "f9bdc5340cf30b31deb6d75a0a9eef1535df9135b7113b695673d1d840d64e5d",
+        "js/art/s1.js": "f25a67ef6a6e25239222cf7efdc4d2758efcf83b59a814a1eef5b567391ba00e",
+        "js/art/s2.js": "96e5a1a30fbde57a34b7c41b73cd2421e2a8ab71d89941aa4751277ecaa71906",
+        "js/art/s3.js": "085e4d341a5a172248efcfa81aa285993040a7dae6fa97c3482a32ef1e8badae",
+        "js/art/s4.js": "8dfe862146c5abd02f24461a168dc7d99a64d2177e6acdccdda1587d007327f3",
+        "js/art/s5.js": "0bed5d6772656682142ca9ef6e6218174f63864d7cacd0b72f3e8bddc3f90734",
+        "js/core/art.js": "66cf631bced4ff61a9c277faefbc75aa2aaf4a5055643577d8cc38c7d752b8ed",
+        "js/core/book.js": "8caf3bf428dfdf63f7c42553736c43e1b91011e6371edfd2f7af8e8f7270a9e5",
+        "js/core/turn.js": "4df628657d1069f29078fdded99b58a0ba565291e621f88934bf7d54dfb7c62a",
+        "js/core/util.js": "2c804b2d24d19647be1e3f5d8feaebb88ad05ac489a77a812cd0b60c5e6cf7e7",
+        "js/spreads/s1.js": "809573ac1135bc0a4ac0856c3012cbbbe8c518121768071eeca22aad9303c4ba",
+        "js/spreads/s2.js": "2290e05e19e77e0217f2afb5bd8599becac09fe3f513149ee27fff0705ef1a35",
+        "js/spreads/s3.js": "7a2b48be0539a0305c440f5bca347b69dc7e5a2bc3df806e51b4ea248f82dba0",
+        "js/spreads/s4.js": "c4b4f21076f9cef1f7731e43918b60038bddd8b39716e9bbc2a0d3dba7a06643",
+        "js/spreads/s5.js": "2d1f8f75270919f2cedf07a7b35a58cb9ebb1cd416d5488c077882856b3fd5d3",
+        "js/ui/ui.js": "41001e6dff8cb600e9b86c5964245fe422573eacf1b8dabd83eeddbe2e3fb78c",
+        "css/book.css": "9ebaf32863e4cd3f274f638f72f6c9808c4cf7727f3374a0d17625319e3fc077",
+        "css/spread-five.css": "9ecee01420a85f5d976e18bf60654c9a8f87910cc752c79c43a5f190f1e827c6",
+        "css/spread-four.css": "2d5321b687b9ba1111218489e3c5249df5dbc1fad170cdd8337583ffc86242b7",
+        "css/spread-one.css": "36a77e9cd7ddee6b218cfc46365cc09196f370a3a5ae84093738bd7c678d7145",
+        "css/spread-three.css": "04ec6932c8c23e33ef3d0e16a95e71c38bb007b6376b93bc028d67e776954699",
+        "css/spread-two.css": "fd1adb5373f8b8b86e5feee56a46a24b2e571f8d05708819c4639dfd222ba6fc",
+        "audio.js": "4a6045d617522d4208bcb78cf6023a7c35bb7b8dfb7d597f44f2d96cf5422c80"
+    }
+}

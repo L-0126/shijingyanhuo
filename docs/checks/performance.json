@@ -1,0 +1,176 @@
+{
+    "testedAt": "2026-11-10T18:30:11.405Z",
+    "browser": {
+        "protocolVersion": "1.3",
+        "product": "Chrome/157.0.8103.50",
+        "revision": "@049750111b1e5c11565c792b2aeed5541f332bad",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+        "jsVersion": "15.7.112.23"
+    },
+    "viewport": {
+        "width": 1440,
+        "height": 1000
+    },
+    "method": "Dedicated headless Chrome, chapter 1 overview; three 3-second samples per edition; warm scene, explicit GC before sampling. Renderer task time is not whole-system CPU. Headless rAF intervals are not physical-display FPS.",
+    "records": [
+        {
+            "edition": "v7_0",
+            "samples": [
+                {
+                    "frames": 360,
+                    "duration": 3000.3999999642374,
+                    "median": 8.300000000000182,
+                    "p95": 8.600000000000364,
+                    "taskPercent": 4.458578037153813,
+                    "scriptPercent": 1.2010939042840043,
+                    "layoutPercent": 0
+                },
+                {
+                    "frames": 360,
+                    "duration": 3005.5000000119217,
+                    "median": 8.300000000001091,
+                    "p95": 8.699999999999818,
+                    "taskPercent": 4.168782774775015,
+                    "scriptPercent": 0.8380783945848729,
+                    "layoutPercent": 0
+                },
+                {
+                    "frames": 361,
+                    "duration": 3007.300000011921,
+                    "median": 8.300000000001091,
+                    "p95": 8.600000000000364,
+                    "taskPercent": 3.7939024115514886,
+                    "scriptPercent": 0.6732289370054235,
+                    "layoutPercent": 0
+                }
+            ],
+            "heapMiB": 2.0773887634277344,
+            "nodes": 3700
+        },
+        {
+            "edition": "v7_1",
+            "samples": [
+                {
+                    "frames": 360,
+                    "duration": 3005.3000000238417,
+                    "median": 8.300000000000182,
+                    "p95": 8.699999999999818,
+                    "taskPercent": 5.356240911421003,
+                    "scriptPercent": 1.2719889139221305,
+                    "layoutPercent": 0
+                },
+                {
+                    "frames": 360,
+                    "duration": 3000.400000023841,
+                    "median": 8.300000000001091,
+                    "p95": 8.600000000000364,
+                    "taskPercent": 4.413797785688999,
+                    "scriptPercent": 0.9119669958487278,
+                    "layoutPercent": 0
+                },
+                {
+                    "frames": 360,
+                    "duration": 3002.9000000119213,
+                    "median": 8.300000000001091,
+                    "p95": 8.5,
+                    "taskPercent": 3.2292461078838257,
+                    "scriptPercent": 0.6259401990913216,
+                    "layoutPercent": 0
+                }
+            ],
+            "heapMiB": 1.6244354248046875,
+            "nodes": 3927
+        },
+        {
+            "edition": "v7_2",
+            "samples": [
+                {
+                    "frames": 360,
+                    "duration": 3002.5999999880787,
+                    "median": 8.300000000000182,
+                    "p95": 8.5,
+                    "taskPercent": 3.650865019000876,
+                    "scriptPercent": 0.8856376451390721,
+                    "layoutPercent": 0
+                },
+                {
+                    "frames": 360,
+                    "duration": 3001.5999999880787,
+                    "median": 8.300000000001091,
+                    "p95": 8.700000000000728,
+                    "taskPercent": 4.67399631325973,
+                    "scriptPercent": 0.9231550863360369,
+                    "layoutPercent": 0
+                },
+                {
+                    "frames": 360,
+                    "duration": 3000.300000011921,
+                    "median": 8.300000000001091,
+                    "p95": 8.5,
+                    "taskPercent": 4.157144031531461,
+                    "scriptPercent": 0.6379042314994405,
+                    "layoutPercent": 0
+                }
+            ],
+            "heapMiB": 1.5601654052734375,
+            "nodes": 3926
+        },
+        {
+            "edition": "v7_3",
+            "samples": [
+                {
+                    "frames": 360,
+                    "duration": 3000.7000000119206,
+                    "median": 8.300000000000182,
+                    "p95": 8.5,
+                    "taskPercent": 4.183205202356286,
+                    "scriptPercent": 0.9917629355130395,
+                    "layoutPercent": 0
+                },
+                {
+                    "frames": 360,
+                    "duration": 3003.700000023842,
+                    "median": 8.300000000001091,
+                    "p95": 8.600000000000364,
+                    "taskPercent": 4.430159232525456,
+                    "scriptPercent": 0.9009524164123175,
+                    "layoutPercent": 0
+                },
+                {
+                    "frames": 360,
+                    "duration": 3001.8000000357624,
+                    "median": 8.300000000001091,
+                    "p95": 8.600000000000364,
+                    "taskPercent": 3.918437003041617,
+                    "scriptPercent": 0.7717846188571548,
+                    "layoutPercent": 0
+                }
+            ],
+            "heapMiB": 2.3395347595214844,
+            "nodes": 4195
+        }
+    ],
+    "boatInputToNextFrameMs": [
+        746.1999999880791,
+        3.5,
+        4.600000023841858,
+        4.399999976158142,
+        5,
+        6,
+        6.400000035762787,
+        4.5,
+        3.300000011920929,
+        2.800000011920929,
+        4.800000011920929,
+        5.700000047683716,
+        5.899999976158142,
+        5.800000011920929,
+        5.800000011920929,
+        5.800000011920929,
+        5.599999964237213,
+        5.599999964237213,
+        2.699999988079071,
+        6.600000023841858
+    ],
+    "runtimeErrors": []
+}

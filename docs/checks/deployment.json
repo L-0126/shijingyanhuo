@@ -1,0 +1,66 @@
+{
+    "results": [
+        {
+            "name": "v7_1 / static deployment and cached offline reload",
+            "passed": true,
+            "detail": {
+                "offlineChapter": 5,
+                "complete": true,
+                "caches": [
+                    "city-book-v7_1-515bbf2ef1ea"
+                ]
+            }
+        },
+        {
+            "name": "v7_2 / static deployment and cached offline reload",
+            "passed": true,
+            "detail": {
+                "offlineChapter": 5,
+                "complete": true,
+                "caches": [
+                    "city-book-v7_1-515bbf2ef1ea",
+                    "city-book-v7_2-6b6a59456932"
+                ]
+            }
+        },
+        {
+            "name": "v7_3 / static deployment and cached offline reload",
+            "passed": true,
+            "detail": {
+                "offlineChapter": 5,
+                "complete": true,
+                "caches": [
+                    "city-book-v7_1-515bbf2ef1ea",
+                    "city-book-v7_2-6b6a59456932",
+                    "city-book-v7_3-113530e69c24"
+                ]
+            }
+        },
+        {
+            "name": "Slow network first visit remains readable and becomes interactive",
+            "passed": true,
+            "detail": {
+                "readableSeconds": 7.226,
+                "interactiveSeconds": 8.297,
+                "latencyMs": 200,
+                "downloadBytesPerSecond": 128000,
+                "heading": "人间烟火，都在日子里。",
+                "engine": true,
+                "font": true,
+                "overflow": false
+            }
+        },
+        {
+            "name": "Hidden browser window suspends scene progress and audio",
+            "passed": true,
+            "detail": {
+                "visibility": "hidden",
+                "before": 0.02210337438370336,
+                "progress": 0.02210337438370336,
+                "audio": "suspended",
+                "input": 0
+            }
+        }
+    ],
+    "runtimeErrors": []
+}

@@ -1,0 +1,43 @@
+{
+    "edition": "v10_2",
+    "checkedOn": "2026-11-11",
+    "browser": "Chromium headless",
+    "localFile": {
+        "protocol": "file:",
+        "cpuSlowdown": 4,
+        "sampledFrames": 74,
+        "legacyFrames": 0,
+        "chapter": 1,
+        "readerVisible": true,
+        "fontReady": true,
+        "mainOpacity": "1",
+        "javascriptDisabledFallbackVisible": true
+    },
+    "delayedInitialization": [
+        {
+            "delayedScript": "config.js",
+            "delayMilliseconds": 350,
+            "viewport": [1440, 1000],
+            "chapter": 1,
+            "sampledFrames": 52,
+            "legacyFrames": 0
+        },
+        {
+            "delayedScript": "book-only.js",
+            "delayMilliseconds": 350,
+            "viewport": [1440, 1000],
+            "chapter": 5,
+            "sampledFrames": 40,
+            "legacyFrames": 0
+        },
+        {
+            "delayedScript": "book-only.js",
+            "delayMilliseconds": 350,
+            "viewport": [390, 844],
+            "chapter": 2,
+            "sampledFrames": 49,
+            "legacyFrames": 0
+        }
+    ],
+    "runtimeErrors": []
+}

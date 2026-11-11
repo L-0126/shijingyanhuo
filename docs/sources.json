@@ -1,0 +1,239 @@
+[
+    {
+        "chapter": 1,
+        "title": "味 · 朝暮百味",
+        "leadCharacters": 97,
+        "bodyCharacters": 698,
+        "sources": [
+            {
+                "title": "武汉市商务局：过早街的早餐生活",
+                "url": "https://sw.wuhan.gov.cn/xwdt/gzdt/202004/t20200423_1079496.shtml",
+                "checkedOn": "2026-11-11",
+                "verification": "已打开官方网页并核对与本章相关的内容。",
+                "use": "第一节的武汉早餐铺背景；江汉关、汉口里与面摊的组合为纸艺场景。"
+            },
+            {
+                "title": "武汉商务：热干面美食文化周与传统手艺",
+                "url": "https://sw.wuhan.gov.cn/xwdt/gzdt/202610/t20261008_2857181.shtml",
+                "checkedOn": "2026-11-11",
+                "verification": "已打开官方网页并核对与本章相关的内容。",
+                "use": "第二节的热干面美食文化周背景；师傅动作与熟客叮嘱为场景及故事描写。"
+            },
+            {
+                "title": "新疆文旅厅：喀什古城罕巴扎夜市",
+                "url": "https://wlt.xinjiang.gov.cn/wlt/dzdt/202112/5d913b3229174c4998b3834dfc3fba60.shtml",
+                "checkedOn": "2026-11-11",
+                "verification": "已打开官方网页并核对与本章相关的内容。",
+                "use": "第三节的喀什夜市饮食背景；长乐巷、蒲扇与围桌人物为本书场景。"
+            }
+        ],
+        "copyUpdatedOn": "2026-11-11",
+        "sceneEvidence": [
+            "js/art/s1.js",
+            "js/spreads/s1.js",
+            "js/story.js"
+        ],
+        "sectionSources": [
+            {
+                "section": "江汉关钟声里的“过早”",
+                "sourceNumber": 1
+            },
+            {
+                "section": "一颠一拌的手上分寸",
+                "sourceNumber": 2
+            },
+            {
+                "section": "红柳炭火与长乐巷的夜",
+                "sourceNumber": 3
+            },
+            {
+                "section": "记得口味，便是熟客",
+                "sourceNumber": null
+            }
+        ]
+    },
+    {
+        "chapter": 2,
+        "title": "声 · 水陆晨集",
+        "leadCharacters": 93,
+        "bodyCharacters": 680,
+        "sources": [
+            {
+                "title": "UNESCO 世界遗产中心：中国大运河",
+                "url": "https://whc.unesco.org/en/list/1443/",
+                "checkedOn": "2026-11-11",
+                "verification": "已打开官方网页并核对与本章相关的内容。",
+                "use": "第一节的大运河运输背景；跨页换船为本书交互，不作为地理路线。"
+            },
+            {
+                "title": "广州规划和自然资源局：恩宁路街区保护提升",
+                "url": "https://ghzyj.gz.gov.cn/xwzx/gzdt/content/post_10183198.html",
+                "checkedOn": "2026-11-11",
+                "verification": "已打开官方网页并核对与本章相关的内容。",
+                "use": "第三节及骑楼札记的恩宁路保护背景；烧腊与杆秤动作来自本书场景。"
+            }
+        ],
+        "copyUpdatedOn": "2026-11-11",
+        "sceneEvidence": [
+            "js/art/s2.js",
+            "js/spreads/s2.js",
+            "js/story.js"
+        ],
+        "sectionSources": [
+            {
+                "section": "橹声摇碎一河晨光",
+                "sourceNumber": 1
+            },
+            {
+                "section": "一船越书缝，自江南入岭南",
+                "sourceNumber": null
+            },
+            {
+                "section": "骑楼廊下的烧腊与杆秤",
+                "sourceNumber": 2
+            },
+            {
+                "section": "替老邻居捎一把青菜",
+                "sourceNumber": null
+            }
+        ]
+    },
+    {
+        "chapter": 3,
+        "title": "闲 · 热汤与盖碗",
+        "leadCharacters": 97,
+        "bodyCharacters": 656,
+        "sources": [
+            {
+                "title": "辽宁日报（省政府转载）：“洗大澡”催热冬季消费新场景",
+                "url": "https://www.ln.gov.cn/web/ywdt/tjdt/2025123109125482913/index.shtml",
+                "checkedOn": "2026-11-11",
+                "verification": "已打开官方网页并核对与本章相关的内容。",
+                "use": "第一节的东北当代洗浴休闲背景；天池浴池与浴票为本书场景及道具。"
+            },
+            {
+                "title": "四川地方志：茶馆与盖碗茶器具",
+                "url": "https://scdfz.sc.gov.cn/upload/main/contentmanage/article/file/201701161555421063.pdf",
+                "checkedOn": "2026-11-11",
+                "verification": "通过官方域名的搜索索引核对茶碗、茶盖、茶船和茶馆记录；直接访问 PDF 时有超时。",
+                "use": "第三节与茶签中茶盖、茶碗、茶船的用途；采耳和添茶动作来自本书场景。"
+            }
+        ],
+        "copyUpdatedOn": "2026-11-11",
+        "sceneEvidence": [
+            "js/art/s3.js",
+            "js/spreads/s3.js",
+            "js/story.js"
+        ],
+        "sectionSources": [
+            {
+                "section": "飞雪里的天池大众浴池",
+                "sourceNumber": 1
+            },
+            {
+                "section": "老虎灶、鸟笼与南北回廊",
+                "sourceNumber": null
+            },
+            {
+                "section": "长嘴铜壶、盖碗与采耳",
+                "sourceNumber": 2
+            },
+            {
+                "section": "拼桌添茶，从客套到熟络",
+                "sourceNumber": null
+            }
+        ]
+    },
+    {
+        "chapter": 4,
+        "title": "艺 · 岁月匠心",
+        "leadCharacters": 95,
+        "bodyCharacters": 675,
+        "sources": [
+            {
+                "title": "上海市政府：黄浦非遗与石库门建筑",
+                "url": "https://www.shanghai.gov.cn/hpfy/index.html",
+                "checkedOn": "2026-11-11",
+                "verification": "已打开官方网页并核对与本章相关的内容。",
+                "use": "第一节的石库门名称及空间背景；敦仁里、烟纸店与电话情节为场景安排。"
+            },
+            {
+                "title": "上海市政府：街区治理与居民日常",
+                "url": "https://www.shanghai.gov.cn/nw4411/20240514/b36723181bff4ba4b596b6ecb69a3cad.html",
+                "checkedOn": "2026-11-11",
+                "verification": "已打开官方网页并核对与本章相关的内容。",
+                "use": "烟纸店札记中静安别墅住户与街区经营的延伸阅读；不用于证明爆米花情节。"
+            }
+        ],
+        "copyUpdatedOn": "2026-11-11",
+        "sceneEvidence": [
+            "js/art/s4.js",
+            "js/spreads/s4.js",
+            "js/story.js"
+        ],
+        "sectionSources": [
+            {
+                "section": "敦仁里八号，门里门外的日常",
+                "sourceNumber": 1
+            },
+            {
+                "section": "蝴蝶牌缝纫机与老座钟",
+                "sourceNumber": null
+            },
+            {
+                "section": "捂紧耳朵，爆米花要开炉了",
+                "sourceNumber": null
+            },
+            {
+                "section": "跳房子的孩子，舍不得丢的旧衣",
+                "sourceNumber": null
+            }
+        ]
+    },
+    {
+        "chapter": 5,
+        "title": "情 · 山城团圆",
+        "leadCharacters": 97,
+        "bodyCharacters": 687,
+        "sources": [
+            {
+                "title": "重庆市城市管理局：步道之上，正是山城好风光",
+                "url": "https://cgj.cq.gov.cn/zwxx_173/bmdt/mtkd/202204/t20220429_10676140.html",
+                "checkedOn": "2026-11-11",
+                "verification": "已打开官方网页并核对与本章相关的内容。",
+                "use": "第一节的山城步道与城市高差背景；书中归家路线按场景设计。"
+            },
+            {
+                "title": "新华网（重庆市城管局转载）：生活更“巴适”！山城步道、特色公园成重庆新名片",
+                "url": "https://cgj.cq.gov.cn/zwxx_173/bmdt/mtkd/202205/t20220509_10696142.html",
+                "checkedOn": "2026-11-11",
+                "verification": "通过官方域名检索的正文核对街巷、滨江、山林步道与社区空间；直接访问时有间歇超时。",
+                "use": "步道札记中街巷、江岸与社区连接的延伸阅读；不用于证明六扇窗内的故事。"
+            }
+        ],
+        "copyUpdatedOn": "2026-11-11",
+        "sceneEvidence": [
+            "js/art/s5.js",
+            "js/spreads/s5.js",
+            "js/story.js"
+        ],
+        "sectionSources": [
+            {
+                "section": "依山而上的石阶与两江夜色",
+                "sourceNumber": 1
+            },
+            {
+                "section": "六扇木窗里的万家灯火",
+                "sourceNumber": null
+            },
+            {
+                "section": "院坝里，鸳鸯锅已经开了",
+                "sourceNumber": null
+            },
+            {
+                "section": "为你留座，祈愿灯升空",
+                "sourceNumber": null
+            }
+        ]
+    }
+]

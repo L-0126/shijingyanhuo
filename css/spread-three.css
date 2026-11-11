@@ -1,0 +1,57 @@
+.s3-settled-facade { pointer-events: none; }
+[data-piece="s3-curtains"] { pointer-events: none !important; touch-action: none; }
+.scene-s3-ready [data-piece="s3-curtains"] > .paper-part { pointer-events: auto; }
+[data-piece="s3-curtains"] > .paper-part { cursor: grab; touch-action: none; }
+[data-piece="s3-curtains"].s3-curtain-dragging > .paper-part { cursor: grabbing; }
+.s3-curtain-guide { position: absolute; pointer-events: none; visibility: hidden; }
+[data-piece="s3-scrubber"][data-curtain-closed] { visibility: hidden !important; }
+.s3-atmosphere, .s3-snow { pointer-events: none; }
+.s3-snow { position: absolute; inset: 0; width: 100%; height: 100%; }
+.s3-snow > svg { width: 100%; height: 100%; overflow: visible; }
+.s3-vapor { position: absolute; inset: 0; }
+.s3-vapor > svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
+/* Layered vapor and snow stay static so SVG compositing does not wake every frame. */
+.s3-vapor { opacity: .46; }
+.s3-snow { opacity: .72; }
+.book-stage:not(.scene-s3-ready) .scene-hint[data-scene="s3"] {
+    opacity: 0;
+    visibility: hidden;
+}
+.scene-s3-ready .scene-hint[data-scene="s3"] {
+    opacity: 1;
+    visibility: visible;
+}
+#s3-tools {
+    position: fixed;
+    bottom: 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 40;
+    display: flex;
+    gap: 6px;
+}
+#s3-tools[hidden] { display: none; }
+#s3-tools button {
+    min-width: 62px;
+    min-height: 44px;
+    padding: 8px 15px;
+    border: 1px solid #8D896A;
+    border-radius: 3px 7px 4px 2px;
+    background: #E5DBC0;
+    color: #526550;
+    box-shadow: 0 3px 0 #8A7750;
+    font: 16px 'LXGW WenKai', 'KaiTi', serif;
+    cursor: pointer;
+    touch-action: manipulation;
+}
+#s3-tools button:hover { background: #F2E8CB; }
+#s3-tools button:focus-visible { outline: 3px solid #CE9F49; outline-offset: 3px; }
+#s3-tools button:active { transform: translateY(2px); box-shadow: 0 1px 0 #8A7750; }
+@media (max-width: 899px) {
+    #s3-tools { bottom: 145px; }
+    #s3-tools button { padding: 8px 11px; min-width: 59px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .s3-vapor { opacity: .4; }
+    .s3-snow { opacity: .52; }
+}

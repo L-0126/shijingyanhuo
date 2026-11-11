@@ -1,0 +1,49 @@
+{
+    "results": [
+        {
+            "name": "Chapter 1: drag the actual paper scene",
+            "passed": true,
+            "detail": {
+                "progress": 0.37499999999999994,
+                "input": 0
+            }
+        },
+        {
+            "name": "Chapter 2: drag the actual paper scene",
+            "passed": true,
+            "detail": {
+                "progress": 0.06480655571869023,
+                "input": 0
+            }
+        },
+        {
+            "name": "Chapter 3: drag the actual paper scene",
+            "passed": true,
+            "detail": {
+                "progress": 0.191216666666666,
+                "input": 0
+            }
+        },
+        {
+            "name": "Chapter 4: drag the actual paper scene",
+            "passed": true,
+            "detail": {
+                "progress": 0.25328851763592136,
+                "input": 0
+            }
+        },
+        {
+            "name": "Chapter 5: drag the actual paper scene",
+            "passed": true,
+            "detail": {
+                "progress": 0.07300083333333358,
+                "input": 0
+            }
+        },
+        {
+            "name": "Mobile first-person foreground supports touch without obscured controls",
+            "passed": true
+        }
+    ],
+    "runtimeErrors": []
+}

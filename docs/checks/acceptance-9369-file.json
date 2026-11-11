@@ -1,0 +1,858 @@
+{
+    "testedAt": "2026-11-10T18:02:02.095Z",
+    "results": [
+        {
+            "name": "v7_1 / local opening, font and one engine",
+            "passed": true,
+            "duration": 1175,
+            "detail": {
+                "edition": "v7_1",
+                "muted": true,
+                "stages": 1,
+                "font": true,
+                "overflow": false,
+                "external": []
+            }
+        },
+        {
+            "name": "v7_1 / chapter 1 reading, pause and return",
+            "passed": true,
+            "duration": 3569,
+            "detail": {
+                "characters": 1396
+            }
+        },
+        {
+            "name": "v7_1 / chapter 1 finish real controls",
+            "passed": true,
+            "duration": 9809,
+            "detail": {
+                "chapter": 1,
+                "phase": "done",
+                "progress": 1,
+                "choice": 1,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 0,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 37,
+                "anchor": {
+                    "x": -417,
+                    "y": 68,
+                    "z": 38.704,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_1 / chapter 2 reading, pause and return",
+            "passed": true,
+            "duration": 5624,
+            "detail": {
+                "characters": 1398
+            }
+        },
+        {
+            "name": "v7_1 / chapter 2 finish real controls",
+            "passed": true,
+            "duration": 15321,
+            "detail": {
+                "chapter": 2,
+                "phase": "done",
+                "progress": 1,
+                "choice": 0,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 5.7958333333333245,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 92,
+                "anchor": {
+                    "x": 593.008,
+                    "y": 211.511,
+                    "z": 39.134533,
+                    "yaw": -0.003
+                }
+            }
+        },
+        {
+            "name": "v7_1 / chapter 3 reading, pause and return",
+            "passed": true,
+            "duration": 6225,
+            "detail": {
+                "characters": 1279
+            }
+        },
+        {
+            "name": "v7_1 / chapter 3 finish real controls",
+            "passed": true,
+            "duration": 18133,
+            "detail": {
+                "chapter": 3,
+                "phase": "done",
+                "progress": 1,
+                "choice": 0,
+                "round": 1,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 8.716666666666493,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 130,
+                "anchor": {
+                    "x": 334,
+                    "y": 219,
+                    "z": 39.157,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_1 / chapter 4 reading, pause and return",
+            "passed": true,
+            "duration": 5489,
+            "detail": {
+                "characters": 1301
+            }
+        },
+        {
+            "name": "v7_1 / chapter 4 finish real controls",
+            "passed": true,
+            "duration": 10732,
+            "detail": {
+                "chapter": 4,
+                "phase": "done",
+                "progress": 1,
+                "choice": 1,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 0,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 35,
+                "anchor": {
+                    "x": -456,
+                    "y": 140,
+                    "z": 126.92,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_1 / chapter 5 reading, pause and return",
+            "passed": true,
+            "duration": 5974,
+            "detail": {
+                "characters": 1287
+            }
+        },
+        {
+            "name": "v7_1 / chapter 5 finish real controls",
+            "passed": true,
+            "duration": 9437,
+            "detail": {
+                "chapter": 5,
+                "phase": "done",
+                "progress": 1,
+                "choice": 0,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 0,
+                "movement": 0,
+                "hasGift": true,
+                "revision": 29,
+                "anchor": {
+                    "x": 481.8427999999999,
+                    "y": 283.9616,
+                    "z": 39.359084800000005,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_1 / history and section deep link",
+            "passed": true,
+            "duration": 12609
+        },
+        {
+            "name": "v7_1 / width 1920, camera and layout",
+            "passed": true,
+            "duration": 6535,
+            "detail": {
+                "width": 1920,
+                "overflow": 1905,
+                "near": false,
+                "camera": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 126,
+                    "zoom": 1,
+                    "tilt": 66,
+                    "yaw": 0
+                },
+                "stage": {
+                    "width": 1218,
+                    "height": 660
+                },
+                "panel": {
+                    "x": 1401.109375,
+                    "y": 280.140625,
+                    "width": 365,
+                    "height": 584.875,
+                    "top": 280.140625,
+                    "right": 1766.109375,
+                    "bottom": 865.015625,
+                    "left": 1401.109375
+                }
+            }
+        },
+        {
+            "name": "v7_1 / width 720, camera and layout",
+            "passed": true,
+            "duration": 2321,
+            "detail": {
+                "width": 720,
+                "overflow": 720,
+                "near": true,
+                "camera": {
+                    "x": -254.42072881406597,
+                    "y": -53.40237558640255,
+                    "z": 118.16295870982543,
+                    "zoom": 3.179677108829802,
+                    "tilt": 82.65371274162096,
+                    "yaw": 0
+                },
+                "stage": {
+                    "width": 720,
+                    "height": 385
+                },
+                "panel": {
+                    "x": 0,
+                    "y": 438.875,
+                    "width": 720,
+                    "height": 405.546875,
+                    "top": 438.875,
+                    "right": 720,
+                    "bottom": 844.421875,
+                    "left": 0
+                }
+            }
+        },
+        {
+            "name": "v7_1 / width 390, camera and layout",
+            "passed": true,
+            "duration": 2379,
+            "detail": {
+                "width": 390,
+                "overflow": 390,
+                "near": true,
+                "camera": {
+                    "x": -253.0799264688554,
+                    "y": -52.48854158814665,
+                    "z": 118.20426007465667,
+                    "zoom": 4.409212567632263,
+                    "tilt": 82.56594734135459,
+                    "yaw": 0
+                },
+                "stage": {
+                    "width": 390,
+                    "height": 385
+                },
+                "panel": {
+                    "x": 0,
+                    "y": 438.875,
+                    "width": 390,
+                    "height": 429.59375,
+                    "top": 438.875,
+                    "right": 390,
+                    "bottom": 868.46875,
+                    "left": 0
+                }
+            }
+        },
+        {
+            "name": "v7_2 / local opening, font and one engine",
+            "passed": true,
+            "duration": 1159,
+            "detail": {
+                "edition": "v7_2",
+                "muted": true,
+                "stages": 1,
+                "font": true,
+                "overflow": false,
+                "external": []
+            }
+        },
+        {
+            "name": "v7_2 / chapter 1 reading, pause and return",
+            "passed": true,
+            "duration": 4084,
+            "detail": {
+                "characters": 1379
+            }
+        },
+        {
+            "name": "v7_2 / chapter 1 finish real controls",
+            "passed": true,
+            "duration": 9389,
+            "detail": {
+                "chapter": 1,
+                "phase": "done",
+                "progress": 1,
+                "choice": 1,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 0,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 36,
+                "anchor": {
+                    "x": -417,
+                    "y": 68,
+                    "z": 38.704,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_2 / chapter 2 reading, pause and return",
+            "passed": true,
+            "duration": 5778,
+            "detail": {
+                "characters": 1381
+            }
+        },
+        {
+            "name": "v7_2 / chapter 2 finish real controls",
+            "passed": true,
+            "duration": 15152,
+            "detail": {
+                "chapter": 2,
+                "phase": "done",
+                "progress": 1,
+                "choice": 0,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 5.7958333333333245,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 92,
+                "anchor": {
+                    "x": 593.008,
+                    "y": 211.511,
+                    "z": 39.134533,
+                    "yaw": -0.003
+                }
+            }
+        },
+        {
+            "name": "v7_2 / chapter 3 reading, pause and return",
+            "passed": true,
+            "duration": 6247,
+            "detail": {
+                "characters": 1262
+            }
+        },
+        {
+            "name": "v7_2 / chapter 3 finish real controls",
+            "passed": true,
+            "duration": 18054,
+            "detail": {
+                "chapter": 3,
+                "phase": "done",
+                "progress": 1,
+                "choice": 0,
+                "round": 1,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 8.72083333333316,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 128,
+                "anchor": {
+                    "x": 334,
+                    "y": 219,
+                    "z": 39.157,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_2 / chapter 4 reading, pause and return",
+            "passed": true,
+            "duration": 5428,
+            "detail": {
+                "characters": 1284
+            }
+        },
+        {
+            "name": "v7_2 / chapter 4 finish real controls",
+            "passed": true,
+            "duration": 10681,
+            "detail": {
+                "chapter": 4,
+                "phase": "done",
+                "progress": 1,
+                "choice": 1,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 0,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 35,
+                "anchor": {
+                    "x": -456,
+                    "y": 140,
+                    "z": 126.92,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_2 / chapter 5 reading, pause and return",
+            "passed": true,
+            "duration": 6164,
+            "detail": {
+                "characters": 1270
+            }
+        },
+        {
+            "name": "v7_2 / chapter 5 finish real controls",
+            "passed": true,
+            "duration": 9318,
+            "detail": {
+                "chapter": 5,
+                "phase": "done",
+                "progress": 1,
+                "choice": 0,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 0,
+                "movement": 0,
+                "hasGift": true,
+                "revision": 28,
+                "anchor": {
+                    "x": 481.8427999999999,
+                    "y": 283.9616,
+                    "z": 39.359084800000005,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_2 / history and section deep link",
+            "passed": true,
+            "duration": 13070
+        },
+        {
+            "name": "v7_2 / width 1920, camera and layout",
+            "passed": true,
+            "duration": 6801,
+            "detail": {
+                "width": 1920,
+                "overflow": 1905,
+                "near": false,
+                "camera": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 126,
+                    "zoom": 1,
+                    "tilt": 66,
+                    "yaw": 0
+                },
+                "stage": {
+                    "width": 1318,
+                    "height": 660
+                },
+                "panel": {
+                    "x": 1446.998779296875,
+                    "y": 283.17620849609375,
+                    "width": 373.22119140625,
+                    "height": 618.0850830078125,
+                    "top": 283.17620849609375,
+                    "right": 1820.219970703125,
+                    "bottom": 901.2612915039062,
+                    "left": 1446.998779296875
+                }
+            }
+        },
+        {
+            "name": "v7_2 / width 720, camera and layout",
+            "passed": true,
+            "duration": 2644,
+            "detail": {
+                "width": 720,
+                "overflow": 720,
+                "near": true,
+                "camera": {
+                    "x": -255.93494994348737,
+                    "y": -54.434404471111414,
+                    "z": 118.11631544467545,
+                    "zoom": 3.1926497669496454,
+                    "tilt": 82.75282968006469,
+                    "yaw": 0
+                },
+                "stage": {
+                    "width": 720,
+                    "height": 385
+                },
+                "panel": {
+                    "x": -1.0620155334472656,
+                    "y": 464.99285888671875,
+                    "width": 722.1240234375,
+                    "height": 411.3111572265625,
+                    "top": 464.99285888671875,
+                    "right": 721.0620079040527,
+                    "bottom": 876.3040161132812,
+                    "left": -1.0620155334472656
+                }
+            }
+        },
+        {
+            "name": "v7_2 / width 390, camera and layout",
+            "passed": true,
+            "duration": 2480,
+            "detail": {
+                "width": 390,
+                "overflow": 390,
+                "near": true,
+                "camera": {
+                    "x": -254.34286952555328,
+                    "y": -53.349309998340985,
+                    "z": 118.1653570460842,
+                    "zoom": 4.4264270214486166,
+                    "tilt": 82.64861627707107,
+                    "yaw": 0
+                },
+                "stage": {
+                    "width": 390,
+                    "height": 385
+                },
+                "panel": {
+                    "x": -1.1272315979003906,
+                    "y": 465.85693359375,
+                    "width": 392.25445556640625,
+                    "height": 433.6298828125,
+                    "top": 465.85693359375,
+                    "right": 391.12722396850586,
+                    "bottom": 899.48681640625,
+                    "left": -1.1272315979003906
+                }
+            }
+        },
+        {
+            "name": "v7_3 / local opening, font and one engine",
+            "passed": true,
+            "duration": 1135,
+            "detail": {
+                "edition": "v7_3",
+                "muted": true,
+                "stages": 1,
+                "font": true,
+                "overflow": false,
+                "external": []
+            }
+        },
+        {
+            "name": "v7_3 / chapter 1 reading, pause and return",
+            "passed": true,
+            "duration": 3439,
+            "detail": {
+                "characters": 1360
+            }
+        },
+        {
+            "name": "v7_3 / chapter 1 finish real controls",
+            "passed": true,
+            "duration": 9561,
+            "detail": {
+                "chapter": 1,
+                "phase": "done",
+                "progress": 1,
+                "choice": 1,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 0,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 37,
+                "anchor": {
+                    "x": -417,
+                    "y": 68,
+                    "z": 38.704,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_3 / chapter 2 reading, pause and return",
+            "passed": true,
+            "duration": 5592,
+            "detail": {
+                "characters": 1365
+            }
+        },
+        {
+            "name": "v7_3 / chapter 2 finish real controls",
+            "passed": true,
+            "duration": 15733,
+            "detail": {
+                "chapter": 2,
+                "phase": "done",
+                "progress": 1,
+                "choice": 0,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 5.7958333333333245,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 92,
+                "anchor": {
+                    "x": 593.008,
+                    "y": 211.511,
+                    "z": 39.134533,
+                    "yaw": -0.003
+                }
+            }
+        },
+        {
+            "name": "v7_3 / chapter 3 reading, pause and return",
+            "passed": true,
+            "duration": 6343,
+            "detail": {
+                "characters": 1247
+            }
+        },
+        {
+            "name": "v7_3 / chapter 3 finish real controls",
+            "passed": true,
+            "duration": 18247,
+            "detail": {
+                "chapter": 3,
+                "phase": "done",
+                "progress": 1,
+                "choice": 0,
+                "round": 1,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 8.729166666666492,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 131,
+                "anchor": {
+                    "x": 334,
+                    "y": 219,
+                    "z": 39.157,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_3 / chapter 4 reading, pause and return",
+            "passed": true,
+            "duration": 5391,
+            "detail": {
+                "characters": 1268
+            }
+        },
+        {
+            "name": "v7_3 / chapter 4 finish real controls",
+            "passed": true,
+            "duration": 10851,
+            "detail": {
+                "chapter": 4,
+                "phase": "done",
+                "progress": 1,
+                "choice": 1,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 0,
+                "movement": 0,
+                "hasGift": false,
+                "revision": 34,
+                "anchor": {
+                    "x": -456,
+                    "y": 140,
+                    "z": 126.92,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_3 / chapter 5 reading, pause and return",
+            "passed": true,
+            "duration": 6215,
+            "detail": {
+                "characters": 1249
+            }
+        },
+        {
+            "name": "v7_3 / chapter 5 finish real controls",
+            "passed": true,
+            "duration": 9420,
+            "detail": {
+                "chapter": 5,
+                "phase": "done",
+                "progress": 1,
+                "choice": 0,
+                "round": 0,
+                "input": 0,
+                "velocity": 0,
+                "angle": 0,
+                "paused": false,
+                "elapsed": 0,
+                "movement": 0,
+                "hasGift": true,
+                "revision": 29,
+                "anchor": {
+                    "x": 481.8427999999999,
+                    "y": 283.9616,
+                    "z": 39.359084800000005,
+                    "yaw": 0
+                }
+            }
+        },
+        {
+            "name": "v7_3 / history and section deep link",
+            "passed": true,
+            "duration": 12962
+        },
+        {
+            "name": "v7_3 / width 1920, camera and layout",
+            "passed": true,
+            "duration": 12919,
+            "detail": {
+                "width": 1920,
+                "overflow": 1905,
+                "near": false,
+                "camera": {
+                    "x": 0,
+                    "y": 120,
+                    "z": 126,
+                    "zoom": 1,
+                    "tilt": 66,
+                    "yaw": 0
+                },
+                "stage": {
+                    "width": 1218,
+                    "height": 660
+                },
+                "panel": {
+                    "x": 1401.109375,
+                    "y": 280.140625,
+                    "width": 365,
+                    "height": 584.875,
+                    "top": 280.140625,
+                    "right": 1766.109375,
+                    "bottom": 865.015625,
+                    "left": 1401.109375
+                }
+            }
+        },
+        {
+            "name": "v7_3 / width 720, camera and layout",
+            "passed": true,
+            "duration": 12956,
+            "detail": {
+                "width": 720,
+                "overflow": 720,
+                "near": true,
+                "camera": {
+                    "x": -199.27593551427796,
+                    "y": -15.818023855405851,
+                    "z": 119.86160969649255,
+                    "zoom": 2.70723980316301,
+                    "tilt": 79.04407939495334,
+                    "yaw": 0
+                },
+                "stage": {
+                    "width": 720,
+                    "height": 385
+                },
+                "panel": {
+                    "x": 0,
+                    "y": 438.875,
+                    "width": 720,
+                    "height": 405.546875,
+                    "top": 438.875,
+                    "right": 720,
+                    "bottom": 844.421875,
+                    "left": 0
+                }
+            }
+        },
+        {
+            "name": "v7_3 / width 390, camera and layout",
+            "passed": true,
+            "duration": 10537,
+            "detail": {
+                "width": 390,
+                "overflow": 390,
+                "near": true,
+                "camera": {
+                    "x": -30.287538144503223,
+                    "y": 99.3572988749717,
+                    "z": 125.06703872706191,
+                    "zoom": 1.408170556910417,
+                    "tilt": 67.98254270499345,
+                    "yaw": 0
+                },
+                "stage": {
+                    "width": 390,
+                    "height": 385
+                },
+                "panel": {
+                    "x": 0,
+                    "y": 438.875,
+                    "width": 390,
+                    "height": 429.59375,
+                    "top": 438.875,
+                    "right": 390,
+                    "bottom": 868.46875,
+                    "left": 0
+                }
+            }
+        }
+    ],
+    "runtimeErrors": []
+}

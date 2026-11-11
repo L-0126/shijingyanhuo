@@ -1,0 +1,44 @@
+{
+    "browser": {
+        "protocolVersion": "1.3",
+        "product": "Edg/157.0.4341.42",
+        "revision": "@7b1486be4607d53d9f93841b7c776bc525ca74b7",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36 Edg/157.0.0.0",
+        "jsVersion": "15.7.11.4"
+    },
+    "results": [
+        {
+            "name": "v7_1 / resume guide from paper replays the current beat",
+            "passed": true
+        },
+        {
+            "name": "v7_1 / resizing maintains close-up and reading state",
+            "passed": true
+        },
+        {
+            "name": "v7_2 / resume guide from paper replays the current beat",
+            "passed": true
+        },
+        {
+            "name": "v7_2 / resizing maintains close-up and reading state",
+            "passed": true
+        },
+        {
+            "name": "v7_3 / resume guide from paper replays the current beat",
+            "passed": true
+        },
+        {
+            "name": "v7_3 / resizing maintains close-up and reading state",
+            "passed": true
+        },
+        {
+            "name": "v7_3 / browser back restores the exact reading position",
+            "passed": true,
+            "detail": {
+                "before": 3830,
+                "after": 3830
+            }
+        }
+    ],
+    "runtimeErrors": []
+}

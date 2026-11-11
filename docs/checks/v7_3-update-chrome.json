@@ -1,0 +1,82 @@
+{
+    "browser": {
+        "protocolVersion": "1.3",
+        "product": "Chrome/157.0.8103.50",
+        "revision": "@049750111b1e5c11565c792b2aeed5541f332bad",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/157.0.0.0 Safari/537.36",
+        "jsVersion": "15.7.112.23"
+    },
+    "results": [
+        {
+            "name": "Long-scroll chapter links retain the original curved page turn",
+            "passed": true,
+            "detail": {
+                "leaf": "translate3d(0px, -500px, 40px) rotateY(-2.03238deg)"
+            }
+        },
+        {
+            "name": "Natural scrolling also turns the paper page",
+            "passed": true
+        },
+        {
+            "name": "Scene occupies the full window with no surrounding layout or diagram",
+            "passed": true,
+            "detail": {
+                "bounds": {
+                    "x": 0,
+                    "y": 0,
+                    "width": 1440,
+                    "height": 1000,
+                    "top": 0,
+                    "right": 1440,
+                    "bottom": 1000,
+                    "left": 0
+                },
+                "header": "none",
+                "panel": "none",
+                "diagram": 0,
+                "stages": 1,
+                "width": 1440,
+                "height": 1000,
+                "scroll": 1440
+            }
+        },
+        {
+            "name": "Rapid bookmark selection settles on the last requested chapter",
+            "passed": true
+        },
+        {
+            "name": "Chapter 1: story, paper reading and camera in the book",
+            "passed": true
+        },
+        {
+            "name": "Chapter 2: story, paper reading and camera in the book",
+            "passed": true
+        },
+        {
+            "name": "Chapter 3: story, paper reading and camera in the book",
+            "passed": true
+        },
+        {
+            "name": "Chapter 4: story, paper reading and camera in the book",
+            "passed": true
+        },
+        {
+            "name": "Chapter 5: story, paper reading and camera in the book",
+            "passed": true
+        },
+        {
+            "name": "Closing and reopening retains the current chapter",
+            "passed": true
+        },
+        {
+            "name": "Mobile keeps a full-window book and readable paper",
+            "passed": true
+        },
+        {
+            "name": "Reduced motion keeps chapter changes immediate",
+            "passed": true
+        }
+    ],
+    "runtimeErrors": []
+}

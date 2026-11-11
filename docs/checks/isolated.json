@@ -1,0 +1,32 @@
+{
+    "records": [
+        {
+            "edition": "v7_1",
+            "fileUrl": "file:///D:/CTF2/CODES/project/0cup2026/output/v7-unpacked/20261111-023544/v7_1/index.html",
+            "chaptersChecked": 5,
+            "offline": true,
+            "localResources": 39,
+            "externalResources": [],
+            "passed": true
+        },
+        {
+            "edition": "v7_2",
+            "fileUrl": "file:///D:/CTF2/CODES/project/0cup2026/output/v7-unpacked/20261111-023544/v7_2/index.html",
+            "chaptersChecked": 5,
+            "offline": true,
+            "localResources": 40,
+            "externalResources": [],
+            "passed": true
+        },
+        {
+            "edition": "v7_3",
+            "fileUrl": "file:///D:/CTF2/CODES/project/0cup2026/output/v7-unpacked/20261111-023544/v7_3/index.html",
+            "chaptersChecked": 5,
+            "offline": true,
+            "localResources": 40,
+            "externalResources": [],
+            "passed": true
+        }
+    ],
+    "runtimeErrors": []
+}

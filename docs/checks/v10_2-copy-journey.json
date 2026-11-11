@@ -1,0 +1,40 @@
+{
+    "edition": "v10_2",
+    "checkedOn": "2026-11-11",
+    "browser": "Chromium headless, local HTTP",
+    "copy": {
+        "chapters": 5,
+        "sections": 20,
+        "notes": 10,
+        "storyParagraphs": 15,
+        "captions": 15,
+        "offlineDocument": "consistent",
+        "sourceUrlsAndPhotoMetadata": "preserved"
+    },
+    "journey": {
+        "samples": 401,
+        "crossingFrames": 161,
+        "invalidSteps": [],
+        "invalidCrossings": [],
+        "maxCameraStep": 7.777120939327438,
+        "seekStages": ["crossing", "home", "approach", "landing", "boarding", "steps", "crossing"],
+        "pausedBoat": "stationary",
+        "manualCompletionAndReset": "passed",
+        "fiveChapterNavigation": "passed"
+    },
+    "display": {
+        "desktopViewport": [1440, 1000],
+        "mobileViewport": [390, 844],
+        "reducedMotion": "passed",
+        "mobileBubbleWithinViewport": true,
+        "mobileBubbleBottom": 347.5625,
+        "mobileBoatTop": 374.1547546386719
+    },
+    "font": {
+        "previousCoverage": 1234,
+        "coverage": 1360,
+        "missingCjk": 0
+    },
+    "runtimeErrors": [],
+    "scope": "Copy migration, homecoming route, playback controls and related display."
+}

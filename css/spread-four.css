@@ -1,0 +1,58 @@
+#s4-tools {
+    position: fixed;
+    z-index: 30;
+    width: 86px;
+    height: 86px;
+    transform: translate(-50%, -24%);
+}
+#s4-tools[hidden] { display: none; }
+.s4-dial {
+    position: relative;
+    display: block;
+    width: 86px;
+    height: 86px;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: #e9dcc1;
+    font: inherit;
+    cursor: grab;
+    touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.s4-dial.dragging { cursor: grabbing; }
+.s4-dial:focus-visible { outline: 3px solid #e3b654; outline-offset: 5px; border-radius: 50%; }
+.s4-dial-rotor { position: absolute; inset: 0; will-change: transform; }
+.s4-dial-rotor svg { display: block; width: 100%; height: 100%; }
+.s4-dial-label { position: absolute; top: 88px; left: 0; width: 100%; font-size: 13px; letter-spacing: 3px; text-shadow: 0 1px 3px #362c23; }
+.s4-touch-tabs { display: none; }
+.piece[data-piece="s4-sky"] > svg,
+.piece[data-piece="s4-gate"] svg,
+.cast[data-shadow="s4-gate"] svg { overflow: hidden; }
+.book-stage:not(.scene-s4-ready) .scene-hint[data-scene="s4"] { opacity: 0; visibility: hidden; }
+.scene-s4-ready .scene-hint[data-scene="s4"] { opacity: 1; visibility: visible; }
+@media (max-width: 520px) {
+    #s4-tools, .s4-dial { width: 68px; height: 68px; }
+    .s4-dial-label { top: 71px; font-size: 12px; }
+    .s4-touch-tabs {
+        position: absolute;
+        display: flex;
+        left: 83px;
+        top: 20px;
+        gap: 8px;
+    }
+    .s4-touch-tabs button {
+        width: 48px;
+        min-height: 44px;
+        padding: 0;
+        border: 1px solid #9f8c6d;
+        border-bottom: 3px solid #8b7254;
+        border-radius: 2px;
+        background: #e2d4b7;
+        color: #5c5044;
+        font: 14px "LXGW WenKai", "KaiTi", serif;
+        cursor: pointer;
+    }
+    .s4-touch-tabs button:focus-visible { outline: 3px solid #e3b654; outline-offset: 3px; }
+}

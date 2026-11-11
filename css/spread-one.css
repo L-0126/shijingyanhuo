@@ -1,0 +1,218 @@
+/* The new scene keeps the cloth cover, warm paper and wooden desk. */
+#chapter {
+    position: fixed;
+    top: 42px;
+    left: 48px;
+    color: #f5e9cf;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 360ms var(--ease-soft);
+}
+#chapter > p { font-size: 15px; letter-spacing: 2px; }
+#chapter > p > span { margin-left: 14px; padding-left: 12px; color: #e2be8b; border-left: 1px solid #aa845f; }
+#chapter h1 {
+    margin: 9px 0 9px;
+    font-size: clamp(30px, 3.3vw, 47px);
+    font-weight: 400;
+    letter-spacing: .14em;
+}
+#chapter .chapter-caption { font-size: 16px; letter-spacing: 1px; color: #dfc7a9; }
+.scene-open #chapter { opacity: 1; }
+.piece.scenery { cursor: default; pointer-events: none; }
+.piece, .cast { contain: layout style; }
+.piece[data-piece="s1-arch"] > svg,
+.cast[data-shadow="s1-arch"] > svg { overflow: hidden; }
+.piece[role="button"] { outline: none; }
+.piece[role="button"]:focus-visible::after {
+    content: "";
+    position: absolute;
+    inset: -8px;
+    border: 3px dashed #e0b253;
+    border-radius: 10px;
+    pointer-events: none;
+}
+[data-part] { transform-box: view-box; }
+.paper-part {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    transform-box: border-box;
+    pointer-events: none;
+}
+.paper-part > svg, .cast > svg {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    overflow: visible;
+}
+/* Static paper vapor keeps the 3D scene compositing light. */
+:is(.piece, .cast) .steam-wisp { opacity: .48; }
+:is(.piece, .cast) .wisp-1 { opacity: .36; }
+:is(.piece, .cast) .wisp-2 { opacity: .58; }
+.piece .ember-glow { opacity: .86; }
+#bookmarks { right: 26px; gap: 7px; }
+.bookmark { width: 42px; height: 88px; font-size: 17px; }
+.bookmark:disabled { opacity: .36; cursor: default; }
+.bookmark:disabled:hover { transform: none; }
+#audio-seal {
+    top: 32px;
+    bottom: auto;
+    right: 28px;
+    width: 60px;
+    height: 60px;
+    font-size: 19px;
+    border-width: 2px;
+}
+#audio-seal.muted { opacity: .74; }
+#audio-seal:focus-visible, .bookmark:focus-visible, .pull-tab:focus-visible {
+    outline: 3px solid #e3b654;
+    outline-offset: 5px;
+}
+#controls { bottom: 26px; gap: 24px; white-space: nowrap; }
+#toggle { min-height: 44px; font-size: 16px; }
+#scene-tools {
+    position: fixed;
+    z-index: 30;
+    width: 198px;
+    transform: translate(-50%, 8px);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 300ms var(--ease-soft);
+}
+.scene-open #scene-tools { opacity: 1; visibility: visible; }
+.pull-tab {
+    position: relative;
+    width: 100%;
+    height: 56px;
+    cursor: grab;
+    touch-action: none;
+    user-select: none;
+    -webkit-user-select: none;
+}
+.pull-caption {
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 100%;
+    text-align: center;
+    color: #d2b486;
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+.pull-slot {
+    position: absolute;
+    inset: 31px 0 16px;
+    border-radius: 4px;
+    background: #332719;
+    box-shadow: 0 1px 0 #a7865d, inset 0 2px 4px #211a12;
+}
+.pull-handle {
+    position: absolute;
+    left: 0;
+    top: 18px;
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    width: 42%;
+    min-height: 44px;
+    padding: 7px 8px;
+    background: #cfad76;
+    border: 1px solid #a5804e;
+    border-radius: 2px 13px 13px 2px;
+    box-shadow: 1px 3px 3px #24180c66, inset 0 0 0 3px #dcbf8e;
+    font-size: 13px;
+    color: #604b31;
+    will-change: transform;
+}
+.pull-handle i {
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background: #573d27;
+    box-shadow: inset 1px 2px 3px #271d15, 0 1px 0 #f4dbad;
+}
+.dragging { cursor: grabbing; }
+.speech-bubble {
+    contain: layout style;
+    position: fixed;
+    width: max-content;
+    max-width: min(300px, calc(100vw - 24px));
+    min-width: 0;
+    padding: 12px 17px;
+    border: 3px double #ac4936;
+    border-radius: 4px;
+    font-size: 17px;
+    transform: translateY(5px) scale(.97);
+    z-index: 150;
+}
+.speech-bubble.show { transform: translateY(0) scale(1); }
+.scene-hint {
+    position: fixed;
+    z-index: 35;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    pointer-events: none;
+    visibility: hidden;
+    color: #e7ce9a;
+    font-size: 12px;
+    text-shadow: 0 1px 3px #342616;
+    transform: translate(-8px, -100%);
+}
+.scene-open .scene-hint { visibility: visible; }
+.scene-hint span { display: none; }
+.scene-hint i {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #bf6644;
+    border: 1px solid #f4d49d;
+    box-shadow: 0 0 0 4px #d5b9872b;
+}
+@media (max-width: 900px) {
+    #chapter { top: 28px; left: 28px; }
+    #chapter h1 { margin: 8px 0; }
+    #bookmarks {
+        top: auto;
+        bottom: 12px;
+        right: 50%;
+        flex-direction: row;
+        transform: translateX(50%);
+    }
+    .bookmark {
+        width: 64px;
+        height: 44px;
+        padding: 8px 3px;
+        writing-mode: horizontal-tb;
+        border-radius: 3px;
+        font-size: 15px;
+    }
+    .bookmark.active { transform: translateY(-4px); }
+    #controls { bottom: 77px; gap: 14px; }
+    #audio-seal { right: 24px; top: 24px; width: 52px; height: 52px; }
+    #help { left: auto; right: 28px; top: 88px; bottom: auto; }
+    #help-panel { left: auto; right: 0; top: calc(100% + 12px); bottom: auto; }
+    #help-panel::after { top: -15px; bottom: auto; }
+    #scene-tools { width: 174px; }
+    .pull-handle { font-size: 12px; gap: 5px; padding: 7px 6px; }
+}
+@media (max-width: 520px) {
+    #chapter { top: 24px; left: 21px; }
+    #chapter > p { font-size: 12px; }
+    #chapter .chapter-caption { font-size: 13px; }
+    #controls { gap: 12px; bottom: 78px; }
+    #controls button { padding: 10px 16px; letter-spacing: 1px; }
+    #scene-tools { width: 150px; }
+    .pull-handle { width: 42%; }
+    .pull-handle span { font-size: 11px; }
+    .speech-bubble { max-width: 235px; font-size: 15px; }
+}
+@media (hover: none) {
+    .bookmark:hover, #audio-seal:hover { transform: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+    #chapter, #scene-tools, .speech-bubble { transition: none; }
+}

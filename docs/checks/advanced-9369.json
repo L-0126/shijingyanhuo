@@ -1,0 +1,175 @@
+{
+    "results": [
+        {
+            "name": "Circular mixing follows pointer and chosen flavor",
+            "passed": true,
+            "detail": {
+                "progress": 0.33605634704598153,
+                "coverage": 0.20163380822758892
+            }
+        },
+        {
+            "name": "Boat inertia, native position and camera are coordinated",
+            "passed": true,
+            "detail": {
+                "moving": {
+                    "story": {
+                        "chapter": 2,
+                        "phase": "active",
+                        "progress": 0.03675818817134388,
+                        "choice": 0,
+                        "round": 0,
+                        "input": 1,
+                        "velocity": 0.10669128187893971,
+                        "angle": 0,
+                        "paused": false,
+                        "elapsed": 0.612499999999999,
+                        "movement": 1,
+                        "hasGift": false,
+                        "revision": 11
+                    },
+                    "anchor": {
+                        "x": -259.212,
+                        "y": 16.667,
+                        "z": 38.550001,
+                        "yaw": 0.186
+                    },
+                    "camera": {
+                        "x": -244.8043058505273,
+                        "y": -31.458807658629688,
+                        "z": 118.45155483701377,
+                        "zoom": 2.085088992179269,
+                        "tilt": 71.66133387223968,
+                        "yaw": 4.218799552888946
+                    }
+                },
+                "coasting": {
+                    "story": {
+                        "chapter": 2,
+                        "phase": "active",
+                        "progress": 0.07942033158002863,
+                        "choice": 0,
+                        "round": 0,
+                        "input": 0,
+                        "velocity": 0.05517864094656098,
+                        "angle": 0,
+                        "paused": false,
+                        "elapsed": 1.154166666666664,
+                        "movement": 0.11844182901380375,
+                        "hasGift": false,
+                        "revision": 18
+                    },
+                    "anchor": {
+                        "x": -257.488,
+                        "y": 62.875,
+                        "z": 38.688625,
+                        "yaw": 0.182
+                    },
+                    "camera": {
+                        "x": -257.1410971180318,
+                        "y": 3.7274577370688378,
+                        "z": 118.03010516707553,
+                        "zoom": 2.1456723822328896,
+                        "tilt": 71.97742112469335,
+                        "yaw": 4.382701395274695
+                    }
+                }
+            }
+        },
+        {
+            "name": "Pour drag changes angle and release stops flow",
+            "passed": true,
+            "detail": {
+                "during": {
+                    "chapter": 3,
+                    "phase": "active",
+                    "progress": 0.2229033333333325,
+                    "choice": 0,
+                    "round": 0,
+                    "input": 1,
+                    "velocity": 0,
+                    "angle": 1,
+                    "paused": false,
+                    "elapsed": 0.9708333333333311,
+                    "movement": 1,
+                    "hasGift": false,
+                    "revision": 14
+                },
+                "after": {
+                    "chapter": 3,
+                    "phase": "active",
+                    "progress": 0.2229033333333325,
+                    "choice": 0,
+                    "round": 0,
+                    "input": 0,
+                    "velocity": 0,
+                    "angle": 0,
+                    "paused": false,
+                    "elapsed": 1.0874999999999975,
+                    "movement": 0.6270890852730563,
+                    "hasGift": false,
+                    "revision": 16
+                }
+            }
+        },
+        {
+            "name": "Cloth path accepts seam movement and rejects off-path movement",
+            "passed": true,
+            "detail": {
+                "progress": 0.9999999999999999,
+                "stitches": 23
+            }
+        },
+        {
+            "name": "Switching chapter cancels an active pointer and input",
+            "passed": true
+        },
+        {
+            "name": "Touch near view keeps controls visible and does not scroll the document",
+            "passed": true
+        },
+        {
+            "name": "Reduced motion preserves completion with a stable camera",
+            "passed": true
+        },
+        {
+            "name": "Tour pauses for manual input and resumes current beat",
+            "passed": true
+        },
+        {
+            "name": "Actual 90 second guide completes all five stories",
+            "passed": true,
+            "detail": {
+                "wallSeconds": 96.473,
+                "states": [
+                    {
+                        "chapter": 1,
+                        "phase": "done",
+                        "progress": 1
+                    },
+                    {
+                        "chapter": 2,
+                        "phase": "done",
+                        "progress": 1
+                    },
+                    {
+                        "chapter": 3,
+                        "phase": "done",
+                        "progress": 1
+                    },
+                    {
+                        "chapter": 4,
+                        "phase": "done",
+                        "progress": 1
+                    },
+                    {
+                        "chapter": 5,
+                        "phase": "done",
+                        "progress": 1
+                    }
+                ]
+            }
+        }
+    ],
+    "runtimeErrors": []
+}

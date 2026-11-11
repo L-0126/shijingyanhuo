@@ -1,0 +1,37 @@
+#s2-tools {
+    position: fixed;
+    z-index: 30;
+    width: 198px;
+    transform: translateX(-50%);
+}
+#s2-tools[hidden] { display: none; }
+.s2-pull-tab .pull-caption {
+    color: #ece0bd;
+    text-shadow: 0 1px 3px #2d4232, 0 0 2px #2d4232;
+    letter-spacing: 4px;
+}
+.s2-pull-tab .pull-handle {
+    background: #c2c3a0;
+    border-color: #7e8c6e;
+    box-shadow: 1px 3px 3px #26362a55, inset 0 0 0 3px #d9d6b5;
+    color: #3d594b;
+}
+.s2-pull-tab .pull-handle i { background: #52694e; }
+.piece[data-piece="s2-bridge"] > svg,
+.cast[data-shadow="s2-bridge"] > svg,
+.piece[data-piece="s2-backdrop"] > svg { overflow: hidden; }
+.piece[data-piece="s2-boat"],
+.piece[data-piece="s2-wake"] { will-change: transform; }
+.cast[data-shadow="s2-boat"] { will-change: transform, translate; }
+.book-stage:not(.scene-s2-ready) .scene-hint[data-scene="s2"] {
+    opacity: 0;
+    visibility: hidden;
+}
+.scene-s2-ready .scene-hint[data-scene="s2"] {
+    opacity: 1;
+    visibility: visible;
+}
+@media (max-width: 520px) {
+    #s2-tools { width: 158px; }
+    .s2-pull-tab .pull-caption { font-size: 11px; }
+}
